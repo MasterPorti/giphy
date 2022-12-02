@@ -1,0 +1,84 @@
+nav {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+
+  img {
+    height: 35px;
+  }
+
+  span {
+    font-family: "Rubik Glitch", cursive;
+    font-size: 30px;
+  }
+}
+
+.menuItems ul {
+  display: flex;
+
+  li {
+    list-style: none;
+    font-size: 15px;
+    font-weight: 900;
+    cursor: pointer;
+    margin: 0 2px 0 2px;
+    padding: 0 20px 0 20px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    border-bottom: solid transparent 5px;
+    border-image: linear-gradient(
+      90deg,
+      rgba(34, 193, 195, 1) 0%,
+      rgba(8, 135, 170, 1) 100%
+    );
+    border-image-slice: 1;
+    transition: background-color 1.2s;
+  }
+
+  li:hover {
+    background: rgb(34, 193, 195);
+    background-color: linear-gradient(
+      90deg,
+      rgba(34, 193, 195, 1) 0%,
+      rgba(8, 135, 170, 1) 100%
+    );
+  }
+
+  img {
+    height: 18px;
+  }
+}
+
+.loginContainer ul {
+  display: flex;
+
+  li {
+    list-style: none;
+    font-size: 15px;
+    font-weight: 900;
+    cursor: pointer;
+    margin: 0 2px 0 2px;
+    padding: 0 20px 0 20px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    border-radius: 4px;
+  }
+
+  .uploadColor {
+    background-color: #6e4fff;
+  }
+
+  .createColor {
+    background-color: #8a3cff;
+  }
+}

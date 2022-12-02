@@ -1,0 +1,42 @@
+.carouselContainer {
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+
+  .imgCarousel {
+    height: 140px;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+}
+
+.buttonContainer {
+  position: absolute;
+  width: 1000px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  .arrow {
+    cursor: pointer;
+
+    width: 40px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+  }
+  .left {
+    transform: rotate(180deg);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0.596) 93%
+    );
+  }
+  .right {
+    background: linear-gradient(
+      90deg,
+      rgb(255 255 255 / 0%) 0%,
+      rgb(0 0 0 / 77%) 89%
+    );
+  }
+}

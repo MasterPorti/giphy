@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&family=Rubik+Glitch&display=swap");
+
+$background-color: #121212;
+$color: #fefeff;
+
+body {
+  background-color: $background-color;
+  color: $color;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  width: 1000px;
+}

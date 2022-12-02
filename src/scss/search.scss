@@ -1,0 +1,29 @@
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+input {
+  width: 990px;
+  height: 55px;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-size: 20px;
+  border: transparent;
+  padding-left: 10px;
+  background: url(../img/searchIcon.png) right center / 55px 58px no-repeat
+    scroll rgb(255, 255, 255);
+}
+input:focus {
+  outline: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.ntTexto {
+  color: #fff;
+  text-decoration: none;
+}
